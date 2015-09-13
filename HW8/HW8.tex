@@ -1,0 +1,101 @@
+\documentclass[10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\headheight 35pt
+\parskip 10pt \parindent 0pt 
+\lhead{Classical Mechanics HW 7}
+\chead{Andrei Ilyashenko}
+\rhead{11-22-2010}
+\cfoot{\thepage}
+
+\begin{document}
+\textbf{Chap 10 der 1}\\
+We want the new Hamilton, $K(Q,P,t)$, to be a function of coordinate only, so
+\begin{align*}
+  \frac{\partial K}{\partial P} &= 0.
+\end{align*}
+Hamilton's equations tell us that
+\begin{align*}
+  \frac{\partial K}{\partial P} &= \dot{Q}.
+\end{align*}
+So,
+\begin{align*}
+  \dot{Q} &= 0\\
+  Q &= \textrm{Constant}.
+\end{align*}
+If we use a generating function of the second kind (others may work as well?),
+then we have
+\begin{align*}
+  Q &= \frac{\partial F_2}{\partial P},
+\end{align*}
+remember that $Q$ is a constant this would imply
+\begin{align*}
+  F_2(q,P,t) &= QP + f(q,t).
+\end{align*}
+The other transformation equation gives us
+\begin{align*}
+  p &= \frac{\partial F_2}{\partial q}\\
+  p &= \frac{\partial f}{\partial q}.
+\end{align*}
+I want to apply Hamilton's equations to this, but they involve $\dot p$, so
+we need to take a time derivative of both sides
+\begin{align*}
+  \dot p &= \frac{d}{dt}\frac{\partial f}{\partial q}\\
+  -\frac{\partial H}{\partial q} &= \frac{d}{dt}\frac{\partial f}{\partial q}.
+\end{align*}
+Does this statement imply
+\begin{align*}
+  \frac{d}{dt}f &= -H\textrm{?}
+\end{align*}
+In any case, if $f$ satisfies the above differential equation, then we will
+have a transformation function, $F_2=QP+f(q,t)$, where $Q$ is a constant that
+generates a transformation where the new Hamiltonian depends only on
+coordinate.\\
+\textbf{Chap 10 ex. 5}\\
+Show that the function
+\begin{align*}
+  S &= \frac{m\omega}{2}\left( q^2+\alpha^2 \right)\cot\omega t - m\omega q\alpha\csc\omega t,
+\end{align*}
+is a solution of the Hamilton-Jacobi for Hamilton's principal function for the
+linear harmonic oscillator with
+\begin{align*}
+  H &= \frac{1}{2m}\left( p^2+m^2\omega^2q^2 \right).
+\end{align*}
+Show that this function generates a correct solution to the motion of the 
+harmonic oscillator.\\
+\textbf{Chap 10 ex. 6}\\
+A charged particle is constrained to move in a plane under the influence of
+a central force potential (nonelectromagnetic) $V=\frac{1}{2}kr^2$, and a 
+constant magnetic $B$ perpendicular to the plane, so that
+\begin{align*}
+  A &= \frac{1}{2}B\times r.
+\end{align*}
+Set up the Hamilton-Jacobi equation for Hamilton's characteristic function
+in plane polar coordinates.  Separate the equation and reduce it to
+quadratures.  Discuss the motion if the canonical momentum $p_{\theta}$ is
+zero at time $t=0$.
+\textbf{Chap 10 ex. 8}\\
+Suppose the potential in a problem of one degree of freedom is linearly
+dependent upon time, such that the Hamiltonian has the form
+\begin{align*}
+  H &= \frac{p^2}{2m}-mAtx,
+\end{align*}
+where $A$ is a constant.  Solve the dynamical problem by means of
+Hamilton's principal function, under the initial conditions $t=0$, $x=0$,
+$p=mx_0$.
+\textbf{Chap 10 ex. 11}\\
+A particle is constrained to move on a roller coaster, the equation whose
+curve is 
+\begin{align*}
+  z &= A\cos^2\frac{2\pi x}{\lambda}.
+\end{align*}
+There is the usual constant downward force of gravity. Discuss the system
+trajectories in phase space under all possible initial conditions,
+describing the phase space orbits in as much detail as you can, paying
+special attention to turning points and transitions between different types
+of motion.
+\end{document}
+

@@ -1,0 +1,319 @@
+\documentclass[10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\headheight 35pt
+\parskip 10pt \parindent 0pt 
+\lhead{Classical Mechanics HW 4}
+\chead{Andrei Ilyashenko}
+\rhead{10-10-2010}
+\cfoot{\thepage}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Chap 6 Ex 4}\\
+The potential energy is given by 
+\begin{align*}
+  V = -m_1gl\cos\theta_1-m_2gl(\cos\theta_1+\cos\theta_2)\\
+  V = -lg\left( (m_1+m_2)\cos\theta_1 + m_2\cos\theta_2 \right),
+\end{align*}
+where $m_1$ is the mass of the upper weight, $m_2$ the mass of the lower weight
+$\theta_1$ is the angle that the upper bar makes with the vertical axis, and
+$\theta_2$ the angle the lower bar makes.  The position of the lower weight is
+\begin{align*}
+  \vec{r_2} &= l(\cos\theta_1+\cos\theta_1)\hat j + l(\sin\theta_1+\sin\theta_1)\hat i.
+\end{align*}
+So, the kinetic energy is
+\begin{align*}
+  T &= \frac{l^2}{2}\left( \dot\theta_1^2(m_1+m_2) + \dot\theta_2^2m_2 + 2\dot\theta_1\dot\theta_2m_2(\sin\theta_1\sin\theta_2+\cos\theta_1\cos\theta_2) \right)\\
+  T &= \frac{l^2}{2}\left( \dot\theta_1^2(m_1+m_2) + \dot\theta_2^2m_2 + 2\dot\theta_1\dot\theta_2m_2\cos(\theta_1-\theta_2) \right).
+\end{align*}
+If we use the small angle approximation, then the kinetic and potential energies become.
+\begin{align*}
+  V &= -\frac{lg}{2}\left( (m_1+m_2)(2-\theta_1^2) + m_2(2-\theta_2^2) \right)\\
+  T &= \frac{l^2}{2}\left( \dot\theta_1^2(m_1+m_2) + \dot\theta_2^2m_2 + 2\dot\theta_1\dot\theta_2m_2 \right).
+\end{align*}
+So, the $T$ and $V$ tensors are
+\begin{align*}
+  V &= 
+  lg
+  \left[
+  \begin{array}[h]{c c}
+    m_1+m_2 & 0\\
+    0       & m_2\\
+  \end{array}
+  \right]\\
+  T &= 
+  l^2
+  \left[
+  \begin{array}[h]{c c}
+    m_1+m_2 & m_2\\
+    m_2     & m_2\\
+  \end{array}
+  \right]
+\end{align*}
+So, we need to solve $det(V-\omega^2 T)=0$, let $\lambda=\omega^2$
+\begin{align*}
+  \left|
+  \begin{array}[h]{c c}
+    (g-l\lambda)(m_1+m_2) & -l\lambda m_2\\
+    -l\lambda m_2         & (g-l\lambda)m_2\\
+  \end{array}
+  \right| &= 0\\
+\end{align*}
+This has the following solutions
+\begin{align*}
+  \lambda &= \frac{2 g}{l}\left( 1-\sqrt{\frac{m_2}{m_1}} \right), \frac{2 g}{l}\left( 1+\frac{2m_2}{m_1}+\sqrt{\frac{m_2}{m_1}} \right).
+\end{align*}
+Notice that the units of $\omega^2$ are $\rm{Hz}^2$, as expected.  Also if 
+$m_1>>m_2$, then we get that
+\begin{align*}
+  \frac{m_2}{m_1} \approx 0\\
+\end{align*}
+So, if $m_1>>m_2$ the two frequencies are approximately equal to $\frac{2g}{l}$.
+The normal modes are
+\begin{align*}
+  \left( \sqrt{\frac{m_2}{m_1+m_2}},1 \right)\ \rm{and}\ \left( -\sqrt{\frac{m_2}{m_1+m_2}},1 \right)
+\end{align*}
+where the first one corresponds to the eigenvalue 
+$\frac{2 g}{l}\left( 1-\sqrt{\frac{m_2}{m_1}} \right)$.  Notice that the 
+eigenvectors are approximately equal if $m_1>>m_2$.  Let $\omega_1$, and 
+$\omega_2$ denote the two eigenvalues, and $\vec{c_1}$, and $\vec{c_2}$ denote
+the two eigenvectors.  The most general motion this system can have is given by
+\begin{align*}
+  \vec{r}(t) &= f_1c_1\cos(\omega_1t+\delta_1) + f_2\cos(\omega_2t+\delta_2)
+\end{align*}
+If we have the initial condition
+\begin{align*}
+  \vec{r}(0) &= (\theta_0, 0)\\
+  \dot\vec{r}(0) &= (0, 0)\\
+\end{align*}
+(i.e. the upper mass is slightly pulled away from the vertical, and the lower
+mass is allowed to hang free), then we have
+\begin{align*}
+  \vec{r}(0) &= (\theta_0, 0)\\
+  f_1c_1\cos(\delta_1)+f_2c_2\cos(\delta_2) &= (\theta_0, 0)\\
+  \\
+  \dot\vec{r}(0) &= (0, 0)\\
+  f_1c_1\omega_1\sin(\delta_1)+f_2c_2\omega_2\sin(\delta_2) &= (0, 0)\\
+  \\
+  f_1\cos(\delta_1)-f_2\cos(\delta_2) &= \theta_0\sqrt{\frac{m_1+m_2}{m_2}}\\
+  f_1\cos(\delta_1)+f_2\cos(\delta_2) &= 0\\
+  \\
+  f_1\omega_1\sin(\delta_1)-f_2\omega_2\sin(\delta_2) &= 0\\
+  f_1\omega_1\sin(\delta_1)+f_2\omega_2\sin(\delta_2) &= 0\\
+\end{align*}
+This equation can be solved for the amplitudes and phase shifts, but even
+without solving it, it can be seen that this equation will give rise to beats,
+since when $\cos(\omega_1 t + \delta_1)=1$, and $\cos(\omega_2 t + \delta_2)=-1$
+the first pendulum will have maximum amplitude, and 
+$\sin(\omega_1 t + \delta_1)=\sin(\omega_2 t + \delta_2)=0$, so the second
+pendulum will be at rest.\\
+
+\textbf{Chap 6 Ex 5}\\
+For the tri-atomic molecule, the eigenvectors and eigenvalues are
+\begin{align*}
+  \omega_1&=0\\
+  \vec{c}_1 &= \frac{1}{\sqrt{2m+M}}(1,1,1)\\
+  \omega_2&=\sqrt{\frac{k}{m}}\\
+  \vec{c}_2 &= \frac{1}{\sqrt{2m}}(1,0,-1)\\
+  \omega_3&=\sqrt{\frac{k}{m}\left( 1+\frac{2m}{M} \right)}\\
+  \vec{c}_3 &= \left( \frac{1}{\sqrt{2m\left( 1+\frac{2m}{M} \right)}}, \frac{-2}{\sqrt{2M\left( 2+\frac{M}{m} \right)}}, \frac{1}{\sqrt{2m\left( 1+\frac{2m}{M} \right)}}\right)
+\end{align*}
+
+Assuming that there is no translational motion ($f_1$=0), then the general solution is
+\begin{align*}
+  x_1(t) &= \frac{1}{\sqrt{2m}}f_2\cos(\omega_2t+\delta_2) + \frac{1}{\sqrt{2m\left( 1+\frac{2m}{M} \right)}}f_3\cos(\omega_3t+\delta_3)\\
+  x_2(t) &= \frac{-2}{\sqrt{2M\left( 2+\frac{M}{m} \right)}} f_3\cos(\omega_3t+\delta_3)\\
+  x_3(t) &= -\frac{1}{\sqrt{2m}}f_2\cos(\omega_2t+\delta_2) + \frac{1}{\sqrt{2m\left( 1+\frac{2m}{M} \right)}}f_3\cos(\omega_3t+\delta_3)\\
+\end{align*}
+\textbf{a)}\\
+The initial conditions are that everyone starts at rest, and $x_2(0)=a_0$, 
+with the other masses being at equilibrium.  The equations for $x_2$ gives
+\begin{align*}
+  x_2(0) &= a_0\\
+  \dot x_2(0) &= 0\\
+  \\
+  \frac{-2}{\sqrt{2M\left( 2+\frac{M}{m} \right)}} f_3\cos(\delta_3) &= a_0\\
+  \frac{2}{\sqrt{2M\left( 2+\frac{M}{m} \right)}} \omega_3 f_3\sin(\delta_3) &= 0\\
+  \\
+  f_3 &= \frac{a_0\sqrt{2M\left( 2+\frac{M}{m} \right)}}{-2}\\
+  d_3 &= 0.
+\end{align*}
+From the other equations, we get
+\begin{align*}
+  f_2 &= \frac{-a_0}{2}\sqrt{2M\left( \frac{2+\frac{M}{m}}{1+\frac{2m}{M}} \right)}\\
+  d_2 &= 0.
+\end{align*}
+\textbf{b)}\\
+If the middle mass had an initial velocity of $v_0$, then
+\begin{align*}
+  x_2(0) &= a_0\\
+  \dot x_2(0) &= v_0\\
+  \\
+  \frac{-2}{\sqrt{2M\left( 2+\frac{M}{m} \right)}} f_3\cos(\delta_3) &= a_0\\
+  \frac{2}{\sqrt{2M\left( 2+\frac{M}{m} \right)}} \omega_3 f_3\sin(\delta_3) &= v_0\\
+\end{align*}
+for simplicity of notation, let $a=\frac{a_0\sqrt{2M\left( 2+\frac{M}{m} \right)}}{-2}$
+and $b=\frac{v_0\sqrt{2M\left( 2+\frac{M}{m} \right)}}{2 \omega_3}$, so the equations
+become
+\begin{align*}
+  f_3\cos(\delta_3) &= a\\
+  f_3\sin(\delta_3) &= b\\
+  \\
+  f_3 &= \sqrt{a^2+b^2}\\
+  d_3 &= \cos^{-1}\left( \frac{a}{\sqrt{a^2+b^2}} \right).
+\end{align*}
+Similarly, $f_2$ and $d_2$ can be solved for using the other initial condition 
+equations
+\begin{align*}
+  f_2 &= \frac{1}{\sqrt{\left( 1+\frac{2m}{M} \right)}}a\\
+  d_2 &= \cos^{-1}\left( \frac{a}{\sqrt{a^2+b^2}} \right).
+\end{align*}
+\textbf{Chap 6 Ex 8}\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+The potential energy is given by
+\begin{align*}
+  V &= \frac{k}{2}\left( (x_1-x_2)^2+(x_3-x_2)^2+(x_3-x_1)^2+(y_1-y_2)^2+(y_3-y_2)^2+(y_3-y_1)^2 \right).
+\end{align*}
+So, the potential and kinetic energy tensors are given by
+\begin{align*}
+  V &= 
+  k\left[
+  \begin{array}[h]{c c c c c c}
+    2 &-1 &-1 &0 &0 &0\\
+    -1 &2 &-1 &0 &0 &0\\
+    -1 &-1 &2 &0 &0 &0\\
+    0 &0 &0 &2 &-1 &-1\\
+    0 &0 &0 &-1 &2 &-1\\
+    0 &0 &0 &-1 &-1 &2\\
+  \end{array}
+  \right]\\
+  T &= 
+  \left[
+  \begin{array}[h]{c c c c c c}
+    m &0 &0 &0 &0 &0\\
+    0 &m &0 &0 &0 &0\\
+    0 &0 &m &0 &0 &0\\
+    0 &0 &0 &m &0 &0\\
+    0 &0 &0 &0 &m &0\\
+    0 &0 &0 &0 &0 &m\\
+  \end{array}
+  \right]
+\end{align*}
+where the first three columns are the coordinates $x_1,x_2,x_3$, and the last
+three are $y_1,y_2,y_3$.  So, the eigenvalues and eigenvectors are 
+\begin{align*}
+  \textrm{Translation\ in\ }x\\
+  \omega_1 &= 0\\
+  \vec{c}_1 &= (1,1,1,0,0,0)\\
+  \\
+  \textrm{Translation\ in\ }y\\
+  \omega_2 &= 0\\
+  \vec{c}_2 &= (0,0,0,1,1,1)\\
+  \\
+  \textrm{Oscillation\ between\ mass\ 1\ and\ 2\ in\ }y\\
+  \omega_3 &= \sqrt{\frac{3k}{m}}\\
+  \vec{c}_2 &= (0,0,0,1,-1,0)\\
+  \\
+  \textrm{Oscillation\ between\ mass\ 1\ and\ 3\ in\ }y\\
+  \omega_3 &= \sqrt{\frac{3k}{m}}\\
+  \vec{c}_2 &= (0,0,0,1,0,-1)\\
+  \\
+  \textrm{Oscillation\ between\ mass\ 1\ and\ 2\ in\ }x\\
+  \omega_3 &= \sqrt{\frac{3k}{m}}\\
+  \vec{c}_2 &= (1,-1,0,0,0,0)\\
+  \\
+  \textrm{Oscillation\ between\ mass\ 1\ and\ 3\ in\ }x\\
+  \omega_3 &= \sqrt{\frac{3k}{m}}\\
+  \vec{c}_2 &= (1,0,-1,0,0,0)).
+\end{align*}
+So, I found a double root instead of a triple root.  This must mean that either
+there is a mistake in my expression for the kinetic or potential energy, or that
+I did not set up the system properly.
+\textbf{Chap 6 Ex 9}\\
+The most general solution to the equation of motion of the last problem is
+\begin{align*}
+  x_j &= f_ic_{ij}\cos(\omega_it+\delta_i).
+\end{align*}
+Where there is a sum over $i$, and $\omega_i$ are the normal frequencies, and
+$c_i$ are the corresponding eigenvectors.  So, any solution that can be written
+in this way will satisfy the equations of motion.  Clearly translation in $x$
+and $y$ is a solution since those are the first two eigenvectors.  I believe that
+rotation about the $z$ should probably be the third eigenvector, but either
+there is a mistake in my expression for the kinetic or potential energy, or my 
+system is not set up correctly.\\
+\textbf{Chap 6 Ex 14}\\
+\textbf{Chap 6 Ex 18}\\
+\textbf{Rectangular plate problem}\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+The kinetic energy is given by
+\begin{align*}
+  T &= \frac{1}{2}m\left( \dot z^2 +\frac{1}{6}w^2\dot\phi^2 + \frac{1}{6}h^2\dot\theta^2  \right).
+\end{align*}
+The potential energy is given by
+\begin{align*}
+  V &= \frac{1}{2}k\left( 4z^2 + w^2\sin^2\phi + h^2\sin^2\theta \right)\\
+  V &= \frac{1}{2}k\left( 4z^2 + w^2\phi^2 + h^2\theta^2 \right)\\
+\end{align*}
+So, the kinetic and potential energy tensors are given by
+\begin{align*}
+  V &= 
+  \left[
+  \begin{array}[h]{c c c}
+    4 & 0 & 0\\
+    0 & 1& 0\\
+    0 & 0 & 1\\
+  \end{array}
+  \right]\\
+  T &= 
+  m\left[
+  \begin{array}[h]{c c c}
+    1 & 0 & 0\\
+    0 & \frac{1}{6} & 0\\
+    0 & 0 & \frac{1}{6}\\
+  \end{array}
+  \right]
+\end{align*}
+where the coordinates are $z$, $w\phi$, $h\theta$ in that order.  The coordinates
+have been chosen so that the frequency has units of Hz.  The normal modes and
+frequencies are
+\begin{align*}
+  \textrm{Oscillation\ of\ plate\ up\ and\ down}\\
+  \omega_1 &= \sqrt{\frac{4k}{m}}\\
+  \vec{c}_1 &= (1,0,0,0))\\
+  \textrm{Oscillation\ of\ plate\ right\ and\ left}\\
+  \omega_2 &= \sqrt{\frac{6k}{m}}\\
+  \vec{c}_2 &= (0,1,0))\\
+  \textrm{Oscillation\ of\ plate\ forward\ and\ backward}\\
+  \omega_3 &= \sqrt{\frac{6k}{m}}\\
+  \vec{c}_3 &= (0,0,1))\\
+\end{align*}
+remember that the second two coordinates are $w\phi$ and $h\theta$ not
+$\phi$ and $\theta$.
+\end{document}

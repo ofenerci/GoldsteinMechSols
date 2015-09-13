@@ -1,0 +1,349 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.5.21)  27 JUN 2011 22:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**DenemeSil2.tex
+(./DenemeSil2.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, basque, catalan, czech, dutch, ukengli
+sh, usenglishmax, french, galician, german, ngerman, swissgerman, italian, poli
+sh, portuguese, slovak, spanish, turkish, loaded.
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/eqexam/eqexam
+.sty
+Package: eqexam 2011/05/19 v2.0j An Exam Construction Package (dps)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count87
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/acrotex/web.c
+fg)
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/eqexam/eqecus
+.opt)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)) (/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `fortextbook' ignored on input line 216.
+Package xcolor Info: Package option `usecustomdesign' ignored on input line 216
+.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/18 v0.06c Graphics/color for pdfTeX
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/infwarerr.st
+y
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+) (/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count89
+\calc@Bcount=\count90
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count91
+\calc@Cskip=\skip45
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count92
+\mult@box=\box26
+\multicol@leftmargin=\dimen106
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
+\full@width=\dimen107
+\page@free=\dimen108
+\premulticols=\dimen109
+\postmulticols=\dimen110
+\multicolsep=\skip46
+\multicolbaselineskip=\skip47
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
+\last@try=\dimen111
+\multicolovershoot=\dimen112
+\multicolundershoot=\dimen113
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+\c@eqpointsofar=\count100
+\c@eqpointsthispage=\count101
+\c@eq@numparts=\count102
+\c@eq@count=\count103
+\partNames=\toks19
+\eq@tmplengthA=\skip48
+\eq@pointbox=\box52
+\eq@pointboxtotalheight=\skip49
+\eqetmplengtha=\skip50
+\eqetmplengthb=\skip51
+\eqtemptokena=\toks20
+\eqtemptokenb=\toks21
+
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/eqexam/eqalon
+e.def
+\eq@tmpbox=\box53
+\eq@tmpdima=\dimen114
+\eqcenterWidget=\dimen115
+)
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/acrotex/eqexa
+m.def
+\ex@solns=\write4
+\openout4 = `DenemeSil2.sol'.
+
+\eq@xrefdefns=\write5
+\openout5 = `DenemeSil2_xdefs.cut'.
+
+\quiz@solns=\write6
+\openout6 = `DenemeSil2.qsl'.
+
+\c@eqexno=\count104
+\c@@exno=\count105
+\c@quizno=\count106
+\c@eqpointvalue=\count107
+\eq@tmplength=\skip52
+\c@eqquestionnoi=\count108
+\c@eqquestionnoii=\count109
+\c@eqquestionnoiii=\count110
+\@eqquestiondepth=\count111
+\c@questionno=\count112
+\c@partno=\count113
+\aboveanswersSkip=\skip53
+\eq@tabColCnt=\count114
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 1032.
+ (/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1032.
+ (/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+\c@markerCnt=\count115
+\workareasb=\box54
+\eqpanelbox=\box55
+\c@panel@cnt=\count116
+\panel@write=\write7
+\c@backofpage=\count117
+)
+(./DenemeSil2.aux)
+\openout1 = `DenemeSil2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen116
+\scratchbox=\box56
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen117
+\MPnumerator=\count122
+\everyMPtoPDFconversion=\toks23
+)
+! Undefined control sequence.
+<write> ...e \space pagenofirstprob\thisexamlabel 
+                                                  \string \endcsname {\thepa...
+l.18 S
+      olve the equation $ 2x + 5 = -2 $ for $x$. \ANS{$-7/2$}
+? 
+! Undefined control sequence.
+l.18 ...the equation $ 2x + 5 = -2 $ for $x$. \ANS
+                                                  {$-7/2$}
+? 
+[1
+
+{/root/.texlive2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./DenemeSil2.sol
+
+! LaTeX Error: Environment ssol undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{ssol}
+                
+? 
+! Undefined control sequence.
+l.4 $ 2x + 5 = -2 \implies
+                           2x = -7 \implies x = -7/2 $
+? 
+! Undefined control sequence.
+l.4 $ 2x + 5 = -2 \implies 2x = -7 \implies
+                                            x = -7/2 $
+? 
+
+! LaTeX Error: \begin{document} ended by \end{ssol}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \end{ssol}
+              
+? 
+
+! LaTeX Error: Environment lsol undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \begin{lsol}
+                
+? 
+
+! LaTeX Error: Environment alignat* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{alignat*}
+                    {2}
+? x
+ 
+Here is how much of TeX's memory you used:
+ 3437 strings out of 494765
+ 46927 string characters out of 3169715
+ 101889 words of memory out of 2000000
+ 6626 multiletter control sequences out of 15000+200000
+ 10044 words of font info for 39 fonts, out of 3000000 for 9000
+ 134 hyphenation exceptions out of 8191
+ 32i,13n,37p,223b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/ofenerci/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb></home/ofenerci/local/texlive/2009/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></home/ofenerci/local/texlive/2009/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></home/ofenerci/local/texlive/2009/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on DenemeSil2.pdf (1 page, 39208 bytes).
+PDF statistics:
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

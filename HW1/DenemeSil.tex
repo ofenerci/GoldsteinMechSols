@@ -1,0 +1,105 @@
+\documentclass[12pt ]{article}
+\usepackage{xkeyval}
+\usepackage[turkish]{babel}
+\usepackage[latin5]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{verbatim}
+\usepackage{tikz}
+\usepackage{picins}
+\usepackage{mdwlist}
+
+\newcommand*\mycirc[1]{%
+\begin{tikzpicture}[baseline=(C.base)]
+  \node[draw,circle,inner sep=1pt](C) {#1};
+\end{tikzpicture}
+}
+%%%%%%%%%%%%-------------%%%%%%%%%%%%%%%
+\newtheoremstyle{example}
+{3pt}
+{3pt}
+{}
+{}
+{\bf}
+{}
+{.5em}
+{}
+
+%\theoremstyle{example}
+%\newtheorem*{example}{Örnek:}
+%\newtheorem*{example}{Deneme}
+%%%%%%%%%%%%%%-------%%%%%%%%%%%%%%%
+\usepackage{siunitx}
+%\usepackage[utf8]{inputenc} %utf8 kodlamasý
+%\AtBeginDocument{\shorthandoff{=}}% right after babel. It is same as kvsetkeys
+%\usepackage{kvsetkeys} % to get rid of error due to babel and graphicx package 
+\let\setkeys\kvsetkeys % to get rid of error due to babel and graphicx package 
+%\uccode`\i='235 % \MakeUppercase{ijk} sorunu halletmek için
+%\lccode`\I='031
+%%latex baþlýklarýnda   metinlerde "i"
+%%karakterini "\.{ý}" þeklinde yaz.
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[overload]{textcase}%latex'in babel ve math üzerindeki sorunlar için
+%%%For Randomize and proofing
+%\usepackage[forpaper,nosolutions,allowrandomize,proofing]{eqexam}
+%\turnOnRandomize
+%\saveRandomSeed
+%\useRandomSeed{1463129777} %AGrubu
+%\useRandomSeed{1385641335} %BGrubu
+
+\usepackage[fortextbook,usecustomdesign,vspacewithsolns,
+forcolorpaper,noseparationrule,usekv]{eqexam}
+%\usepackage[margin=1.5cm]{geometry}
+%\usepackage[left=12mm,right=10mm,top=10mm,bottom=10mm]{geometry}
+\title[Hazýrlýk Sorularý]{9. Sýnýflar II.Sýnav Hazýrlýk Sorularý }
+%\subject[C1]{Modern Fizik: Iþýðýn Tanecik Kuramý}
+%\author{Özhan Fenerci}
+\keywords{Calculus I, Section 004}
+%\university{%
+%      Hatice Bayraktar Anadolu Teknik ve EML
+%}
+\date{\thisterm, \the\year}
+%\duedate{October 17, 2005}
+\examNameLabel{Ad ve Soyad:}
+\setlength{\columnsep}{50pt}
+\setlength{\columnseprule}{0.4pt}
+\setlength\columnwidth{10cm}
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+\sisetup{output-decimal-marker={,}}
+\sisetup{input-product= x}
+\sisetup{quotient-mode=fraction}
+\sisetup{output-product= \cdot}
+\sisetup{exponent-product=\cdot}
+\sisetup{open-bracket=\(,close-bracket=\),}
+\setlength{\parindent}{0mm}
+\renewcommand{\theenumi}{\Roman{enumi}}
+\graphicspath{{/home/ofenerci/HB/Siniflar/figs/}}
+\newenvironment{probset}[2][\probSet{\thesection}]{%
+    \exam[#2]{\autoExamName}\insProbHead{#1}}{\endexam}
+
+\begin{document}
+
+\centerline{\textbf{Hatice Bayraktar Lisesi 2010-2011 Öðretim Yýlý II.Dönem
+11.Sýnýflar Fizik Dersi II.Sýnavý }}\textbf{\centerline{A GRUBU}}\\
+\noindent
+Ad ve Soyad: \hfill Öðrenci No: \hfill Sýnýf: \hfill {}
+%\maketitle
+  \begin{center}
+	\textbf{Dikkat:}Bu testde toplam 20 soru vardýr. Her sorunun deðere 5
+	  puandýr. Size verilen optik okuyucu üzerine testinizin grubunu yazmayý
+		unutmayýn.
+	  \end{center}
+
+	  \begin{exam}
+   \begin{probset}[Demo Problem Set]{Demo Problem Set\annotPage}
+	 ieaiueakmiea
+   \end{probset}
+
+ \end{exam}
+	\end{document}
+
+
+

@@ -1,0 +1,78 @@
+'''Derivation 1'''<br />
+ For a single particle, with constant mass, the equation of motion is <math>\vec F = m\vec a
+</math> If we differentiate the kinetic energy with respect to time, we get <math>\frac{d T}{d t} = \frac{d}{d t}\frac{1}{2}m\vec v\cdot\vec v\\
+  = m\vec v\cdot\vec a+\frac{1}{2}\dot m\vec v\cdot\vec v
+</math> Since, <math>m</math> is constant, the second term is 0, and from the equation of motion, we know that <math>\vec F=m\vec a</math>, so the equation above becomes <math>\frac{dT}{dt} = \vec F\cdot\vec v.
+</math>
+
+If, <math>m</math> is not constant, then the equation of motion is <math>\vec F = m\vec a + \dot m\vec v,
+</math> and differentiating <math>mT</math> with respect to time gives <math>\frac{d mT}{d t} = \frac{d}{d t}\frac{1}{2}m^2\vec v\cdot\vec v\\
+  = m^2\vec v\cdot\vec a+m\dot m\vec v\cdot\vec v\\
+  = m\vec v\cdot(m\vec a+\dot m\vec v).
+</math> From the equation of motion, it is clear that the term in parenthesis is just the force, so the equation becomes <math>\frac{d mT}{dt} = \vec F\cdot (m\vec v) = \vec F\cdot\vec p.
+</math> '''Exercise 12'''<br />
+ First, we need to determine the work needed to move an object from the surface of the earth to infinitely far away from it (i.e. escape the earth&rsquo;s gravitational field). This is given by the following integral <math>\int_{r=R}^{\infty} -\frac{GmM}{r^2}dr = \frac{GmM}{R}.
+</math> So, the potential energy of a particle of mass m on the surface of the earth is <math>-\frac{GmM}{R}</math>. Thus, a particle must have a kinetic energy of at least <math>\frac{GmM}{R}</math> in order to escape from the earth&rsquo;s gravity. This corresponds to a velocity of <math>\sqrt{\frac{2GM}{R}}\approx11.187 km/s</math>.<br />
+ '''Exercise 13'''<br />
+ Newton&rsquo;s second law states <math>F_{ext} = \frac{dP}{dt} </math> So, in order to apply newton&rsquo;s second law to the rocket, we need to determine the momentum <math>P</math> of the rocket-fuel system at an arbitrary time <math>t</math>. This momentum will be the sum of the momentum of the rocket plus the unspent fuel and the momentum of the ejected fuel. The momentum of the rocket is <math>mv</math>, where <math>m(t)</math> is the mass of the rocket and <math>v(t)</math> is the velocity of the rocket relative to the earth. To get the momentum of the ejected fuel, we need to integrate <math>(v-v')\dot m</math> where <math>v'</math> is the velocity of the fuel relative to the rocket (so <math>v-v'</math> is the velocity of the fuel relative to the earth) and <math>\dot m</math> is assumed to be constant. So, the momentum of the rocket-fuel system at time <math>t</math> is <math>P(t) = m(t)v(t) + \int_0^t (v-v')\dot m dt\\
+       = mv + \dot m(x-v't).
+</math> Now, all we need is to determine the external force. The problem says to assume a uniform gravitational field, so then the external force is <math>-mg</math>. Substituting these expressions into Newton&rsquo;s second law gives <math>F_{ext} = \frac{dP}{dt}\\
+  -mg = \dot mv + m\dot v + \dot m(v-v')\\
+  -mg = m\dot v - \dot mv'\\
+  m\dot v = -mg - \dot mv'\\
+  \dot v = -g - \frac{\dot m}{m}v',
+</math> which is the expected result. Now, we integrate both sides from time 0 to time <math>T</math>, <math>\int_0^T\dot vdt = \int_0^T(-g - \frac{\dot m}{m}v')dt\nonumber\\
+  v_f-v_i = -gT - v'ln\left( \frac{m_e}{m_i} \right).
+  \label{eq:ex13}
+</math> where <math>m_i</math> is the initial mass, <math>m_e</math> is the mass of the empty rocket, and lets say <math>m_f</math> is the mass of the fuel. Notice that <math>T=m_f/\dot m</math> assuming the rocket expends all of its fuel. Now let <math>r=m_f/m_e</math>, and then we can rewrite <math>m_e/m_i</math> as <math>1/(1+r)</math>, and <math>m_f/m_e</math> as <math>r/(1+r)</math>. Now, the problem asks to determine the fuel to rocket mass ratio (<math>r</math>) needed for a rocket to accelerate from rest to 11.2 km/s with an exhaust speed of 2.1 km/s and a mass loss rate of <math>1/60 m_i</math>. Substituting these values into eq. {eq:ex13} gives <math>11.2\mathrm{km/s} = \left( -60g - 2.1\times\ln\left( \frac{1}{1+r} \right)\right)\mathrm{km/s}\\
+</math> With <math>60g=60\times.0098 \mathrm{km/s}</math>, this equation can be solved numerically to get <math>r=273.056</math>.<br />
+ '''Exercise 14'''<br />
+ This is a two dimensional problem, and the generalized coordinates <math>\theta</math> and <math>\phi</math> are given in fig. {fig:ex14}
+
+<blockquote>[[Image:Ex14.png|image]] {A graph showing the generalized coordinates <math>\theta</math>, and <math>\phi</math>. The two balls of mass <math>m</math> are held together by a rod of length <math>L</math>, the center of which is fixed to a circle of radius <math>a</math>.} {fig:ex14}
+</blockquote>
+The position of the center of the rod in terms of the generalized coordinate <math>\theta</math> is <math>\vec{rod} = a(\cos(\theta),\sin(\theta))
+</math> and the positions of the two masses are <math>\vec{r_1} = \vec{rod}+\frac{L}{2}(\cos\phi, \sin\phi)\\
+  \vec{r_2} = \vec{rod}-\frac{L}{2}(\cos\phi, \sin\phi)
+</math> so, the velocities are <math>\vec{v_1} = \frac{\partial}{\partial t} \vec{r_1} = a\dot\theta(-\sin(\theta),\cos(\theta)) + \frac{L}{2}\dot\phi(-\sin(\phi),\cos(\phi))\\
+  \vec{v_2} = \frac{\partial}{\partial t} \vec{r_2} = a\dot\theta(-\sin(\theta),\cos(\theta)) + \frac{L}{2}\dot\phi(\sin(\phi),-\cos(\phi)).
+</math> And, the total kinetic energy is <math>T = \frac{1}{2}m\left( \vec{v_1}\cdot\vec{v_1} + \vec{v_2}\cdot\vec{v_2} \right)\\
+  = \frac{1}{2}m\left( \left( a\dot\theta\sin\theta+\frac{L}{2}\dot\phi\sin\phi \right)^2 + \left( a\dot\theta\cos\theta+\frac{L}{2}\dot\phi\cos\phi \right)^2 \right.+\\
+  \hspace{37pt}\left.\left( a\dot\theta\sin\theta-\frac{L}{2}\dot\phi\sin\phi \right)^2 + \left( a\dot\theta\cos\theta-\frac{L}{2}\dot\phi\cos\phi \right)^2  \right) \\
+  = \frac{1}{2}m\left( 2a^2\dot\theta^2\sin^2\theta+\frac{2L^2}{4}\dot\phi\sin^2\phi+2a^2\dot\theta^2\cos^2\theta+\frac{2L^2}{4}\dot\phi\cos^2\phi \right)\\
+  = m(a^2\dot\theta^2+\frac{L^2}{4}\dot\phi^2).
+</math> '''Exercise 18'''<br />
+ The equations of motion for the Lagrangian, <math>L' = \frac{m}{2}\left( a\dot x^2 + 2b\dot x \dot y + c\dot y^2 \right) - \frac{K}{2}\left( ax^2 + 2bxy + c y^2 \right),
+</math> are <math>\frac{d}{dt}\frac{\partial L'}{\partial \dot x} -  \frac{\partial L'}{\partial x} = 0\\
+  ma\ddot x + mb\ddot y + Ka x + Kby = 0\\
+  \frac{d}{dt}\frac{\partial L'}{\partial \dot y} -  \frac{\partial L'}{\partial y} = 0\\
+  mc\ddot y + mb\ddot x + Kc y + Kbx = 0.
+</math> If we let <math>\vec a = (\ddot x, \ddot y)</math> and <math>\vec r = (x,y)</math>, then the equation of motion becomes <math>m\vec a\cdot(a,b) = -K\vec r\cdot(a,b)\\
+  m\vec a\cdot(b,c) = -K\vec r\cdot(b,c)\\
+</math> Remember that we can always multiply or divide an equation by a non-zero number without invalidating it. So, if we were to divide the first equation by <math>\sqrt{a^2+b^2}</math>, and the second by <math>\sqrt{b^2+c^2}</math>, we would get <math>m\vec a\cdot\hat{(a,b)} = -K\vec r\cdot\hat{(a,b)}\\
+  m\vec a\cdot\hat{(b,c)} = -K\vec r\cdot\hat{(b,c)}\\
+</math> Where the hat signifies that the vector is a unit vector pointing in the same direction. Now, it is clear that the first equation relates the acceleration along the <math>(a,b)</math> direction to the position along the same direction, and the second equation does the same in the <math>(b,c)</math> direction. So, if we define new coordinates through a point transformation <math>\tilde x = \frac{ax+by}{\sqrt{a^2+b^2}} = r\cdot\hat{(a,b)}\\
+  \tilde y = \frac{bx+cy}{\sqrt{b^2+c^2}} = r\cdot\hat{(b,c)}\\
+  \\
+  x = \frac{\tilde y b \sqrt{b^2+c^2} - \tilde x c \sqrt{a^2+b^2} }{\sqrt{b^2-ac}}\\
+  y = \frac{\tilde x b \sqrt{a^2+b^2} - \tilde y a \sqrt{b^2+c^2} }{\sqrt{b^2-ac}}\\
+</math> This point transformation basically exchanges the <math>x</math> and <math>y</math> axis for new axis pointing in the <math>(b,c)</math> and <math>(a,b)</math> directions. If we apply this transformation to the equations of motion, we get <math>m\vec a\cdot\hat{(a,b)} = -K\vec r\cdot\hat{(a,b)}\\
+  m\vec a\cdot\hat{(b,c)} = -K\vec r\cdot\hat{(b,c)}\\
+  \\
+  m\ddot{\tilde x} = -k \tilde x\\
+  m\ddot{\tilde y} = -k \tilde y,
+</math> and it becomes clear that this Lagrangian describes a spring-like central force system, where <math>\vec F = -K \vec{r}</math>. The usual Lagrangian for this system is <math>L = \frac{m}{2}\left( \dot x^2 + \dot y^2 \right) - \frac{K}{2}\left( x^2 + y^2 \right),
+</math> and it is related to the given Lagrangian by the point transformation discussed above. The two cases that the problem asks you to look at: <math>a=0=c</math>, and <math>b=0, a=-c</math> correspond to no change in the axis, since the new axis are <math>(0,1), (1,0)</math> and <math>(1,0), (0,1)</math> respectively. Also, now the condition on <math>b^2-ac</math> can be reinterpreted as the condition that the new axes <math>(a,b)</math>, and <math>(b,c)</math>, must not be parallel, since then the transformation would not be one to one. <math>\hat{(a,b)} \neq \hat{(b,c)}\\
+ \sqrt{b^2+c^2}(a,b) \neq \sqrt{a^2+b^2}(b,c)\\
+ \\
+ \sqrt{b^2+c^2}a \neq \sqrt{a^2+b^2}b\\
+ \sqrt{b^2+c^2}b \neq \sqrt{a^2+b^2}c\\
+ \\
+ (b^2+c^2)a \neq (a^2+b^2)b\\
+ (b^2+c^2)b \neq (a^2+b^2)c\\
+ \\
+ \frac{a}{b} \neq \frac{b}{c}\\
+ b^2 \neq ac\\
+ b^2-ac \neq 0.
+</math> In fact, it is even apparent from the form of the point transformation that <math>b^2-ac &\neq 0</math> since this term appears in the denominator.
+

@@ -1,0 +1,1128 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.5.21)  27 JUN 2011 21:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**DenemeSil.tex
+(./DenemeSil.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, basque, catalan, czech, dutch, ukengli
+sh, usenglishmax, french, galician, german, ngerman, swissgerman, italian, poli
+sh, portuguese, slovak, spanish, turkish, loaded.
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count87
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/babel/turkish.ldf
+Language: turkish 2005/03/31 v1.2m Turkish support from the babel system
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+Package babel Info: Making : an active character on input line 86.
+Package babel Info: Making ! an active character on input line 87.
+Package babel Info: Making = an active character on input line 88.
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/latin5.def
+File: latin5.def 2008/03/30 v1.1d Input encoding file
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks18
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen104
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks20
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks21
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks29
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks30
+\verbatim@line=\toks31
+\verbatim@in@stream=\read1
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/frontendlayer/tikz.
+sty
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
+y
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common.tex
+\pgfutil@everybye=\toks32
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-latex.def
+\pgfutil@abb=\box28
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cf
+g
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/18 v0.06c Graphics/color for pdfTeX
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/infwarerr.st
+y
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen115
+\pgf@y=\dimen116
+\pgf@xa=\dimen117
+\pgf@ya=\dimen118
+\pgf@xb=\dimen119
+\pgf@yb=\dimen120
+\pgf@xc=\dimen121
+\pgf@yc=\dimen122
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count102
+\c@pgf@countb=\count103
+\c@pgf@countc=\count104
+\c@pgf@countd=\count105
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/systemlayer/pgf.c
+fg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count106
+\pgfsyssoftpath@bigbuffer@items=\count107
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen123
+\pgfmath@count=\count108
+\pgfmath@box=\box29
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count109
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen124
+\pgf@picmaxx=\dimen125
+\pgf@picminy=\dimen126
+\pgf@picmaxy=\dimen127
+\pgf@pathminx=\dimen128
+\pgf@pathmaxx=\dimen129
+\pgf@pathminy=\dimen130
+\pgf@pathmaxy=\dimen131
+\pgf@xx=\dimen132
+\pgf@xy=\dimen133
+\pgf@yx=\dimen134
+\pgf@yy=\dimen135
+\pgf@zx=\dimen136
+\pgf@zy=\dimen137
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen138
+\pgf@path@lasty=\dimen139
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen140
+\pgf@shorten@start@additional=\dimen141
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count110
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen142
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen143
+\pgf@pt@y=\dimen144
+\pgf@pt@temp=\dimen145
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen146
+\pgf@sys@shading@range@num=\count111
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box33
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/modules/pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen147
+\pgf@nodesepend=\dimen148
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/utilities/pgffor.st
+y
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/utilities/pgffor.
+code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen149
+\pgffor@skip=\dimen150
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count112
+\pgfplotmarksize=\dimen151
+)
+\tikz@lastx=\dimen152
+\tikz@lasty=\dimen153
+\tikz@lastxsaved=\dimen154
+\tikz@lastysaved=\dimen155
+\tikzleveldistance=\dimen156
+\tikzsiblingdistance=\dimen157
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count113
+\tikznumberofchildren=\count114
+\tikznumberofcurrentchild=\count115
+\tikz@fig@count=\count116
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count117
+\pgfmatrixcurrentcolumn=\count118
+\pgf@matrix@numberofcolumns=\count119
+)
+\tikz@expandcount=\count120
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/picins/picins.sty
+Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box37
+\@TEXT=\box38
+\d@breite=\dimen158
+\d@hoehe=\dimen159
+\d@xoff=\dimen160
+\d@yoff=\dimen161
+\d@shad=\dimen162
+\d@dash=\dimen163
+\d@boxl=\dimen164
+\d@pichskip=\dimen165
+\d@tmp=\dimen166
+\d@tmpa=\dimen167
+\d@bskip=\dimen168
+\hsiz@=\dimen169
+\p@getot@l=\dimen170
+\c@breite=\count121
+\c@hoehe=\count122
+\c@xoff=\count123
+\c@yoff=\count124
+\c@pos=\count125
+\c@shad=\count126
+\c@dash=\count127
+\c@boxl=\count128
+\c@zeilen=\count129
+\@changemode=\count130
+\c@piccaption=\count131
+\c@piccaptionpos=\count132
+\c@picpos=\count133
+\c@whole=\count134
+\c@half=\count135
+\c@tmp=\count136
+\c@tmpa=\count137
+\c@tmpb=\count138
+\c@tmpc=\count139
+\c@tmpd=\count140
+\d@leftskip=\skip49
+\ptoti=\dimen171
+\ptotii=\dimen172
+\env@box=\box39
+\d@envdp=\dimen173
+\c@hsize=\count141
+\c@envdp=\count142
+\d@envb=\dimen174
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/mdwtools/mdwlist.sty
+Package: mdwlist 1996/05/02 1.1 Various list-related things
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/expl3.sty
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3names.sty
+Package: l3names 2011/01/08 v2122 L3 Experimental Naming Scheme for TeX Primiti
+ves
+)
+Package: expl3 2011/04/09 v2222 L3 Experimental code bundle wrapper
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count143
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3basics.sty
+Package: l3basics 2011/04/23 v2246 L3 Experimental basic definitions
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3expan.sty
+Package: l3expan 2011/04/09 v2223 L3 Experimental Argument Expansion module
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3tl.sty
+Package: l3tl 2011/04/09 v2223 L3 Experimental Token Lists
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3int.sty
+Package: l3int 2011/04/11 v2229 L3 Experimental Integer module
+\l_tmpa_int=\count144
+\l_tmpb_int=\count145
+\l_tmpc_int=\count146
+\g_tmpa_int=\count147
+\g_tmpb_int=\count148
+\c_max_int=\count149
+\g_tl_inline_level_int=\count150
+\g_prg_inline_level_int=\count151
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3quark.sty
+Package: l3quark 2011/04/14 v2234 L3 Experimental Quark Commands
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3seq.sty
+Package: l3seq 2011/04/21 v2245 The LaTeX3 kernel: sequences and stacks
+\g_seq_nesting_depth_int=\count152
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3toks.sty
+Package: l3toks 2011/04/09 v2223 L3 Experimental Token Registers
+\l_tmpb_toks=\toks41
+\l_tmpc_toks=\toks42
+\g_tmpa_toks=\toks43
+\g_tmpb_toks=\toks44
+\g_tmpc_toks=\toks45
+\c_empty_toks=\toks46
+\l_tl_replace_toks=\toks47
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3prg.sty
+Package: l3prg 2011/04/09 v2223 L3 Experimental control structures
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3clist.sty
+Package: l3clist 2011/04/09 v2223 L3 Experimental comma separated lists
+\g_clist_map_inline_int=\count153
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3token.sty
+Package: l3token 2011/04/09 v2223 L3 Experimental token investigation and manip
+ulation
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3prop.sty
+Package: l3prop 2011/04/09 v2223 L3 Experimental Property Lists
+\g_prop_inline_level_int=\count154
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3msg.sty
+Package: l3msg 2010/10/02 v2052 L3 Experimental LaTeX Messages module
+\l_msg_redirect_classes_prop=\toks48
+\l_msg_redirect_names_prop=\toks49
+\l_msg_redirect_fatal_prop=\toks50
+\l_msg_redirect_error_prop=\toks51
+\l_msg_redirect_warning_prop=\toks52
+\l_msg_redirect_info_prop=\toks53
+\l_msg_redirect_log_prop=\toks54
+\l_msg_redirect_trace_prop=\toks55
+\l_msg_redirect_none_prop=\toks56
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3io.sty
+Package: l3io 2010/10/03 v2063 L3 Experimental i/o module
+\g_iow_streams_prop=\toks57
+\g_ior_streams_prop=\toks58
+\l_iow_stream_int=\count155
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3skip.sty
+Package: l3skip 2011/02/15 v2149 L3 Experimental skip registers
+\l_tmpa_skip=\skip50
+\l_tmpb_skip=\skip51
+\l_tmpc_skip=\skip52
+\g_tmpa_skip=\skip53
+\g_tmpb_skip=\skip54
+\l_tmpa_dim=\dimen175
+\l_tmpb_dim=\dimen176
+\l_tmpc_dim=\dimen177
+\l_tmpd_dim=\dimen178
+\g_tmpa_dim=\dimen179
+\g_tmpb_dim=\dimen180
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3box.sty
+Package: l3box 2011/04/09 v2223 L3 Experimental Box module
+\l_tmpb_box=\box40
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3keyval.sty
+Package: l3keyval 2011/04/09 v2223 L3 Experimental keyval processing
+\l_KV_level_int=\count156
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3keys.sty
+Package: l3keys 2010/11/11 v2082 L3 Experimental key-value support
+\l_keys_choice_int=\count157
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3precom.sty
+Package: l3precom 2011/04/09 v2223 L3 Experimental precompilation module
+\g_gen_sym_int=\count158
+\g_ggen_sym_int=\count159
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3xref.sty
+Package: l3xref 2011/04/09 v2223 L3 Experimental cross referencing
+\g_xref_all_curr_immediate_fields_prop=\toks59
+\g_xref_all_curr_deferred_fields_prop=\toks60
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3file.sty
+Package: l3file 2011/04/21 v2242 The LaTeX3 kernel: file operations
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3fp.sty
+Package: l3fp 2011/03/19 v2201 L3 Experimental floating-point operations
+\c_one_million=\count160
+\c_one_hundred_million=\count161
+\c_five_hundred_million=\count162
+\c_one_thousand_million=\count163
+\c_fp_pi_by_four_decimal_int=\count164
+\c_fp_pi_by_four_extended_int=\count165
+\c_fp_pi_decimal_int=\count166
+\c_fp_pi_extended_int=\count167
+\c_fp_two_pi_decimal_int=\count168
+\c_fp_two_pi_extended_int=\count169
+\l_fp_count_int=\count170
+\l_fp_div_offset_int=\count171
+\l_fp_exp_integer_int=\count172
+\l_fp_exp_decimal_int=\count173
+\l_fp_exp_extended_int=\count174
+\l_fp_exp_exponent_int=\count175
+\l_fp_input_a_sign_int=\count176
+\l_fp_input_a_integer_int=\count177
+\l_fp_input_a_decimal_int=\count178
+\l_fp_input_a_exponent_int=\count179
+\l_fp_input_b_sign_int=\count180
+\l_fp_input_b_integer_int=\count181
+\l_fp_input_b_decimal_int=\count182
+\l_fp_input_b_exponent_int=\count183
+\l_fp_input_a_extended_int=\count184
+\l_fp_input_b_extended_int=\count185
+\l_fp_mul_a_i_int=\count186
+\l_fp_mul_a_ii_int=\count187
+\l_fp_mul_a_iii_int=\count188
+\l_fp_mul_a_iv_int=\count189
+\l_fp_mul_a_v_int=\count190
+\l_fp_mul_a_vi_int=\count191
+\l_fp_mul_b_i_int=\count192
+\l_fp_mul_b_ii_int=\count193
+\l_fp_mul_b_iii_int=\count194
+\l_fp_mul_b_iv_int=\count195
+\l_fp_mul_b_v_int=\count196
+\l_fp_mul_b_vi_int=\count197
+\l_fp_mul_output_int=\count198
+\l_fp_output_sign_int=\count199
+\l_fp_output_integer_int=\count200
+\l_fp_output_decimal_int=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\l_fp_output_exponent_int=\count277
+\l_fp_output_extended_int=\count278
+\l_fp_round_position_int=\count279
+\l_fp_round_target_int=\count280
+\l_fp_split_sign_int=\count281
+\l_fp_tmp_int=\count282
+\l_fp_trig_octant_int=\count283
+\l_fp_trig_sign_int=\count284
+\l_fp_trig_decimal_int=\count285
+\l_fp_trig_extended_int=\count286
+\l_fp_tmp_dim=\dimen181
+\l_fp_tmp_skip=\skip55
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/expl3/l3luatex.sty
+Package: l3luatex 2010/07/18 v1985 L3 Experimental LuaTeX functions
+\g_cctab_allocate_int=\count287
+\g_cctab_stack_int=\count288
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count289
+\calc@Bcount=\count290
+\calc@Adimen=\dimen182
+\calc@Bdimen=\dimen183
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count291
+\calc@Cskip=\skip58
+))
+Package: siunitx 2011/05/23 v2.2e A comprehensive (SI) units package
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/xpackages/xbase/xparse.
+sty
+Package: xparse 2011/04/08 v2219 Generic document command parser
+\c_xparse_shorthands_prop=\toks61
+\l_xparse_m_args_int=\count292
+\l_xparse_mandatory_args_int=\count293
+\l_xparse_processor_int=\count294
+\l_xparse_total_args_int=\count295
+) (/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen184
+\extrarowheight=\dimen185
+\NC@list=\toks62
+\extratabsurround=\skip59
+\backup@length=\skip60
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/xpackages/xtras/l3keys2
+e.sty
+Package: l3keys2e 2011/05/06 v2320 Parsing LaTeX3 keyvals as LaTeX2e package op
+tions
+)
+\l_siunitx_tmp_box=\box41
+\l_siunitx_tmp_int=\count296
+\l_siunitx_number_in_prop=\toks63
+\l_siunitx_number_mantissa_length_int=\count297
+\l_siunitx_number_uncert_length_int=\count298
+\l_siunitx_round_int=\count299
+\l_siunitx_process_decimal_int=\count300
+\l_siunitx_process_uncertainty_int=\count301
+\l_siunitx_process_fixed_int=\count302
+\l_siunitx_process_integer_min_int=\count303
+\l_siunitx_process_precision_int=\count304
+\l_siunitx_number_out_prop=\toks64
+\l_siunitx_angle_marker_box=\box42
+\l_siunitx_angle_unit_box=\box43
+\l_siunitx_angle_marker_dim=\dimen186
+\l_siunitx_angle_unit_dim=\dimen187
+\l_siunitx_angle_degree_prop=\toks65
+\l_siunitx_angle_minute_prop=\toks66
+\l_siunitx_angle_second_prop=\toks67
+\l_siunitx_unit_int=\count305
+\l_siunitx_unit_prop=\toks68
+\l_siunitx_unit_denominator_int=\count306
+\l_siunitx_unit_numerator_int=\count307
+\l_siunitx_unit_prefix_int=\count308
+\l_siunitx_unit_prefix_base_int=\count309
+\l_siunitx_unit_prefix_gram_int=\count310
+\l_siunitx_number_product_int=\count311
+\c_siunitx_one_fill_skip=\skip61
+\l_siunitx_table_unit_align_skip=\skip62
+\l_siunitx_table_fill_box=\box44
+\l_siunitx_table_fill_dim=\dimen188
+\l_siunitx_table_pre_box=\box45
+\l_siunitx_table_post_box=\box46
+\l_siunitx_table_result_box=\box47
+\l_siunitx_table_comparator_dim=\dimen189
+\l_siunitx_table_decimal_dim=\dimen190
+\l_siunitx_table_exponent_dim=\dimen191
+\l_siunitx_table_integer_dim=\dimen192
+\l_siunitx_table_mantissa_dim=\dimen193
+\l_siunitx_table_marker_dim=\dimen194
+\l_siunitx_table_result_dim=\dimen195
+\l_siunitx_table_uncert_dim=\dimen196
+\l_siunitx_table_gap_dim=\dimen197
+\l_siunitx_table_model_prop=\toks69
+\l_siunitx_table_space_dim=\dimen198
+\l_siunitx_table_number_align_skip=\skip63
+\l_siunitx_table_text_align_skip=\skip64
+\l_siunitx_table_decimal_int=\count312
+\l_siunitx_table_exponent_int=\count313
+\l_siunitx_table_integer_int=\count314
+\l_siunitx_table_uncert_int=\count315
+ LaTeX info: Defining document command \DeclareBinaryPrefix
+(LaTeX)  with arg. spec. 'mmm' on line 6791.
+
+ LaTeX info: Defining document command \DeclareSIPostPower
+(LaTeX)  with arg. spec. 'mm' on line 6794.
+
+ LaTeX info: Defining document command \DeclareSIPrefix
+(LaTeX)  with arg. spec. 'mmm' on line 6797.
+
+ LaTeX info: Defining document command \DeclareSIPrePower
+(LaTeX)  with arg. spec. 'mm' on line 6800.
+
+ LaTeX info: Defining document command \DeclareSIQualifier
+(LaTeX)  with arg. spec. 'mm' on line 6803.
+
+ LaTeX info: Defining document command \DeclareSIUnit
+(LaTeX)  with arg. spec. 'O{}mm' on line 6806.
+
+ LaTeX info: Defining document command \DeclareSIUnitWithOptions
+(LaTeX)  with arg. spec. 'mmm' on line 6809.
+
+ LaTeX info: Defining document command \ang
+(LaTeX)  with arg. spec. 'o>{\SplitArgument {2}{;}}m' on line 6824.
+
+ LaTeX info: Defining document command \num
+(LaTeX)  with arg. spec. 'om' on line 6831.
+
+ LaTeX info: Defining document command \numlist
+(LaTeX)  with arg. spec. 'o>{\SplitList {;}}m' on line 6838.
+
+ LaTeX info: Defining document command \numrange
+(LaTeX)  with arg. spec. 'omm' on line 6845.
+
+ LaTeX info: Defining document command \SIlist
+(LaTeX)  with arg. spec. 'o>{\SplitList {;}}mm' on line 6855.
+
+ LaTeX info: Defining document command \SIrange
+(LaTeX)  with arg. spec. 'ommm' on line 6865.
+
+ LaTeX info: Defining document command \SI
+(LaTeX)  with arg. spec. 'omom' on line 6875.
+
+ LaTeX info: Defining document command \sisetup
+(LaTeX)  with arg. spec. 'm' on line 6878.
+
+ LaTeX info: Defining document command \tablenum
+(LaTeX)  with arg. spec. 'om' on line 6885.
+
+ LaTeX info: Defining document command \si
+(LaTeX)  with arg. spec. 'om' on line 6895.
+
+ LaTeX info: Defining document command \siunitx_bookmark_num:w
+(LaTeX)  with arg. spec. 'om' on line 6932.
+
+ LaTeX info: Defining document command \siunitx_bookmark_numrange:w
+(LaTeX)  with arg. spec. 'omm' on line 6934.
+
+ LaTeX info: Defining document command \siunitx_bookmark_SI:w
+(LaTeX)  with arg. spec. 'omom' on line 6936.
+
+ LaTeX info: Defining document command \siunitx_bookmark_SIlist:w
+(LaTeX)  with arg. spec. 'omm' on line 6938.
+
+ LaTeX info: Defining document command \siunitx_bookmark_SIrange:w
+(LaTeX)  with arg. spec. 'ommm' on line 6940.
+
+ LaTeX info: Defining document command \siunitx_bookmark_si:w
+(LaTeX)  with arg. spec. 'om' on line 6941.
+
+\g_ior_tmp_stream=\read3
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/beamer/translator/trans
+lator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/beamer/translator/trans
+lator-language-mappings.tex)))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen199
+\TX@old@table=\dimen200
+\TX@old@col=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\TX@target=\dimen256
+\TX@delta=\dimen257
+\TX@cols=\count316
+\TX@ftn=\toks70
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/eqexam/eqexam
+.sty
+Package: eqexam 2011/05/05 v2.0l An Exam Construction Package (dps)
+
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/acrotex/web.c
+fg)
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/eqexam/eqecus
+.opt)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)) (/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count317
+\mult@box=\box48
+\multicol@leftmargin=\dimen258
+\c@unbalance=\count318
+\c@collectmore=\count319
+\doublecol@number=\count320
+\multicoltolerance=\count321
+\multicolpretolerance=\count322
+\full@width=\dimen259
+\page@free=\dimen260
+\premulticols=\dimen261
+\postmulticols=\dimen262
+\multicolsep=\skip65
+\multicolbaselineskip=\skip66
+\partial@page=\box49
+\last@line=\box50
+\mult@rightbox=\box51
+\mult@grightbox=\box52
+\mult@gfirstbox=\box53
+\mult@firstbox=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\c@columnbadness=\count323
+\c@finalcolumnbadness=\count324
+\last@try=\dimen263
+\multicolovershoot=\dimen264
+\multicolundershoot=\dimen265
+\mult@nat@firstbox=\box72
+\colbreak@box=\box73
+)
+\c@eqpointsofar=\count325
+\c@eqpointsthispage=\count326
+\c@eq@numparts=\count327
+\c@eq@count=\count328
+\partNames=\toks71
+\eq@tmplengthA=\skip67
+\eq@pointbox=\box74
+\eq@pointboxtotalheight=\skip68
+\eqetmplengtha=\skip69
+\eqetmplengthb=\skip70
+\eqtemptokena=\toks72
+\eqtemptokenb=\toks73
+
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/eqexam/eqalon
+e.def
+\eq@tmpbox=\box75
+\eq@tmpdima=\dimen266
+\eqcenterWidget=\dimen267
+)
+(/home/ofenerci/local/texlive/2009/../texmf-local/tex/latex/local/acrotex/eqexa
+m.def
+\ex@solns=\write5
+\openout5 = `DenemeSil.sol'.
+
+\eq@xrefdefns=\write6
+\openout6 = `DenemeSil_xdefs.cut'.
+
+\quiz@solns=\write7
+\openout7 = `DenemeSil.qsl'.
+
+\c@eqexno=\count329
+\c@@exno=\count330
+\c@quizno=\count331
+\c@eqpointvalue=\count332
+\eq@tmplength=\skip71
+\c@eqquestionnoi=\count333
+\c@eqquestionnoii=\count334
+\c@eqquestionnoiii=\count335
+\@eqquestiondepth=\count336
+\c@questionno=\count337
+\c@partno=\count338
+\aboveanswersSkip=\skip72
+\eq@tabColCnt=\count339
+)
+! Undefined control sequence.
+\vspacewithkeyOff ->\keepdeclaredvspacingfalse 
+                                               
+l.802 \vspacewithkeyOff
+                       
+? 
+LaTeX Font Info:    Try loading font information for U+msa on input line 1037.
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1037.
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1037--1037
+[][] 
+ []
+
+\c@markerCnt=\count340
+\workareasb=\box76
+\eqpanelbox=\box77
+\c@panel@cnt=\count341
+\panel@write=\write8
+\c@backofpage=\count342
+) (./DenemeSil.aux)
+\openout1 = `DenemeSil.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+ ABD: EveryShipout initializing macros
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count343
+\scratchdimen=\dimen268
+\scratchbox=\box78
+\nofMPsegments=\count344
+\nofMParguments=\count345
+\everyMPshowfont=\toks74
+\MPscratchCnt=\count346
+\MPscratchDim=\dimen269
+\MPnumerator=\count347
+\everyMPtoPDFconversion=\toks75
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/pdftexcmds.s
+ty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/oberdiek/epstopdf-base.
+sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/kvdefinekeys
+.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/kvsetkeys.st
+y
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/home/ofenerci/local/texlive/2009/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+! Undefined control sequence.
+\epstopdfsetup ->\setkeys 
+                          {ETE}
+l.195 \epstopdfsetup
+                    {%
+? 
+! Undefined control sequence.
+l.201   suffix=-\SourceExt
+                          -converted-to,%
+? x
+ 
+Here is how much of TeX's memory you used:
+ 19703 strings out of 494765
+ 393584 string characters out of 3169715
+ 380444 words of memory out of 2000000
+ 22521 multiletter control sequences out of 15000+200000
+ 14362 words of font info for 45 fonts, out of 3000000 for 9000
+ 134 hyphenation exceptions out of 8191
+ 56i,13n,55p,418b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.
+PDF statistics:
+ 3 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

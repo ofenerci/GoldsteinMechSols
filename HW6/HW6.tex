@@ -1,0 +1,261 @@
+\documentclass[10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\headheight 35pt
+\parskip 10pt \parindent 0pt 
+\lhead{Classical Mechanics HW 6}
+\chead{Andrei Ilyashenko}
+\rhead{11-16-2010}
+\cfoot{\thepage}
+
+\begin{document}
+\textbf{Chap 9 der 2}\\
+We are given the transformation
+\begin{align*}
+  Q &= q\cos\alpha - p\sin\alpha\\
+  P &= q\sin\alpha + p\cos\alpha.
+\end{align*}
+Lets see if this transformation satisfies the symplectic condition.  The matrix
+$M$ is given by
+\begin{align*}
+  \left[ 
+  \begin{array}[h]{c c}
+    \frac{\partial Q}{\partial{q}}& \frac{\partial Q}{\partial{p}}\\
+    \frac{\partial P}{\partial{q}}& \frac{\partial P}{\partial{p}}\\
+  \end{array}
+  \right]
+  =
+  \left[ 
+  \begin{array}[h]{c c}
+    \cos\alpha& -\sin\alpha\\
+    \sin\alpha& \cos\alpha
+  \end{array}.
+  \right]
+\end{align*}
+If, we evaluate the product $MJM^{\mathrm{T}}$, we get
+\begin{align*}
+  \left[ 
+  \begin{array}[h]{c c}
+    \cos\alpha& -\sin\alpha\\
+    \sin\alpha& \cos\alpha
+  \end{array}
+  \right]
+  \left[ 
+  \begin{array}[h]{c c}
+    0& 1\\
+    -1& 0
+  \end{array}
+  \right]
+  \left[ 
+  \begin{array}[h]{c c}
+    \cos\alpha& \sin\alpha\\
+    -\sin\alpha& \cos\alpha
+  \end{array}
+  \right]
+  &=
+  \left[ 
+  \begin{array}[h]{c c}
+    \sin\alpha& \cos\alpha\\
+    -\cos\alpha& \sin\alpha
+  \end{array}
+  \right]
+  \left[ 
+  \begin{array}[h]{c c}
+    \cos\alpha& \sin\alpha\\
+    -\sin\alpha& \cos\alpha
+  \end{array}
+  \right]
+  \\
+  &=
+  \left[ 
+  \begin{array}[h]{c c}
+    0& 1\\
+    -1& 0
+  \end{array}
+  \right],
+\end{align*}
+thus this transformation satisfies the symplectic condition.  Now, we need to
+find a generating function for this transformation.  I have decided to find
+a function of the first kind.  First, I will need to solve for $p$
+\begin{align*}
+  Q &= q\cos\alpha-p\sin\alpha\\
+  P &= q\sin\alpha+p\cos\alpha\\
+  \\
+  p &= \frac{q\cos\alpha-Q}{\sin\alpha}\\
+  p &= \frac{P-q\sin\alpha}{\cos\alpha}.
+\end{align*}
+Notice that I can solve for $p$ in terms of $q$ and $Q$, or in terms of $q$ and
+$P$.  The first solution is valid only if $\sin\alpha\neq0$, and the second is
+valid only if $\cos\alpha\neq0$.  Since I have decided to find a generating 
+function of the first kind, I will need to use the solution for $p$ in terms of
+$q$ and $Q$.  This means I must restrict myself to the case where 
+$\sin\alpha\neq0$, or equivalently $\alpha\neq n\pi\ n\in\mathbb{Z}$.  For these
+points, the transformation simplifies to the identity transformation, whose 
+generating function is well known.  Now, we can solve for the generating function
+\begin{align*}
+  -\frac{\partial F_1}{\partial Q} &= P\\
+  -\frac{\partial F_1}{\partial Q} &= q\sin\alpha+p\cos\alpha\\
+  -\frac{\partial F_1}{\partial Q} &= q\sin\alpha+\frac{q\cos\alpha-Q}{\sin\alpha}\cos\alpha\\
+  F_1 &= -Qq\sin\alpha+\left( \frac{1}{2}Q^2-Qq\cos\alpha \right)\cot\alpha+g(q).
+\end{align*}
+However, we also require that
+\begin{align*}
+  \frac{\partial F_1}{\partial q} &= p\\
+  -Q\sin\alpha+\left( -Q\cos\alpha \right)\cot\alpha+g'(q) &=  \frac{q\cos\alpha-Q}{\sin\alpha}\\
+  -Q\sin^2\alpha+ -Q\cos^2\alpha+\sin\alpha g'(q) &=  q\cos\alpha-Q\\
+  \sin\alpha g'(q) &=  q\cos\alpha\\
+  g(q) &=  \frac{1}{2}q^2\cot\alpha.
+\end{align*}
+So, the generating function is
+\begin{align*}
+  F_1 &= -Qq\sin\alpha+\left( \frac{1}{2}Q^2+\frac{1}{2}q^2-Qq\cos\alpha \right)\cot\alpha+g(q).
+\end{align*}
+The physical significance of the transformation at $\alpha=0$, is the identity transformation,
+and the physical significance of the transformation at $\alpha=\frac{\pi}{2}$ is that coordinate
+is exchanged with the negative of momentum, and momentum is exchanged with coordinate.  In the
+first case, the generating function fails, this is because a generating function of the first 
+kind assumes that $q$ and $Q$ are independent, which is not the case if $q=Q$.\\
+\textbf{Chap 9 der 10}\\
+The transformation is given by
+\begin{align*}
+  Q &= \frac{\alpha p}{x}\\
+  P &= \beta x^2.
+\end{align*}
+In order for this transformation to be canonical, we must have
+\begin{align*}
+  [Q,P]_{qp} &= 1\\
+  \frac{\partial Q}{\partial q}\frac{\partial P}{\partial p} - \frac{\partial Q}{\partial p}\frac{\partial P}{\partial q} &= 1\\
+  -2\alpha\beta &= 1\\
+  \beta &= -\frac{1}{2\alpha}.
+\end{align*}
+Thus, the transformation is only canonical if $\beta = -\frac{1}{2\alpha}$.  A generating function of the first
+kind for this transformation is
+\begin{align*}
+  F_1 &= \frac{Qx^2}{2\alpha}.
+\end{align*}
+This is easy to verify
+\begin{align*}
+  \frac{\partial F_1}{\partial x} &= \frac{Qx}{\alpha} = p\\
+  -\frac{\partial F_1}{\partial Q} &= -\frac{x^2}{\alpha} = P.
+\end{align*}
+The Hamiltonian in the new variables is
+\begin{align*}
+  H &= \frac{p^2}{2m}+\frac{kx^2}{2}=-\frac{Q^2P}{m\alpha}-Pk\alpha,
+\end{align*}
+and the equations of motion are
+\begin{align*}
+  \dot{P} &= -\frac{\partial H}{\partial Q}\\
+  \dot{Q} &= \frac{\partial H}{\partial P}\\
+  \dot{P} &= \frac{2QP}{m\alpha}\\
+  \dot{Q} &= -\frac{Q^2}{m\alpha}-k\alpha.
+\end{align*}
+\textbf{Chap 9 ex 22}\\
+In terms of Poisson brackets, the canonical condition is the following system 
+of equations
+\begin{align*}
+  \frac{\partial P_1}{\partial p_1} + \frac{\partial P_1}{\partial p_2} &= 0\\
+  2q_1\frac{\partial P_2}{\partial p_1} &= 0\\
+  2q_1\frac{\partial P_1}{\partial p_1} &= 1\\
+  q_2\frac{\partial P_2}{\partial p_1} + q_1\frac{\partial P_2}{\partial p_2} &= 1.
+\end{align*}
+One of the poisson brackets is zero for any choice of $P$, and the last poisson
+bracket I will deal with later.  Here is the most general form for $P_1$ and
+$P_2$
+\begin{align*}
+  P_1 &= \frac{p_1-p_2}{2q_1}+f_1(q_1,q_2)\\
+  P_2 &= p_2+f_2(q_1,q_2).
+\end{align*}
+Now, a good choice for $P_1$ and $P_2$ is
+\begin{align*}
+  P_1 &= \frac{p_1-p_2}{2q_1}\\
+  P_2 &= p_2+(q_1+q_2)^2.
+\end{align*}
+The hamiltonian can be written entirely in terms of $P_1$ and $P_2$, but lets
+see if this transformation is canonical.  The last poisson bracket is
+\begin{align*}
+  \frac{\partial P_1}{\partial p_1}\frac{\partial P_2}{\partial q_1} + \frac{\partial P_1}{\partial p_2}\frac{\partial P_2}{\partial q_2} - 
+  \frac{\partial P_1}{\partial q_1}\frac{\partial P_2}{\partial p_1} - \frac{\partial P_1}{\partial q_2}\frac{\partial P_2}{\partial p_2}  
+  &= 0\\
+  \frac{partial f_1}{\partial q_1}-\left( \frac{\partial f_2}{\partial q_1}\frac{1}{2q_1} - \frac{\partial f_2}{\partial q_2}\frac{1}{2q_1} \right) &= 0.
+\end{align*}
+So, if $f_1=0$ and $f_2=(q_1+q_2)^2$, then this condition will be satisfied so the transformation will be canonical.
+The new hamiltonian is
+\begin{align*}
+  H &= \left( \frac{p_1-p_2}{2q_1} \right)^2+p_2+(q_1+q_2)^2\\
+    &= (P_1)^2+P_2.
+\end{align*}
+So, the equations of motion are
+\begin{align*}
+  P_1 &= \alpha\\
+  P_2 &= \beta\\
+  Q_1 &= 2\alpha t + c_1\\
+  Q_2 &= t + c_2.
+\end{align*}
+With a little bit more algebra, these equations can be put in terms of 
+$q_1,q_2$, and $p_1,p_2$ using the inverse of the original canonical 
+transformation.  In this for the solution will probably not be linear,
+so by doing a transformation we essentially solved the problem without
+having to solve the original Hamilton's equations.
+
+\textbf{Chap 9 ex 24}\\
+\textbf{a)}\\
+I will show that this transformation is canonical using Poisson brackets
+\begin{align*}
+  [Q,P]_{qp} &= \frac{\partial Q}{\partial q}\frac{\partial P}{\partial p}-\frac{\partial Q}{\partial p}\frac{\partial P}{\partial q}\\
+  [Q,P]_{qp} &= \frac{i\alpha}{2i\alpha}+\frac{1}{2}=1.
+\end{align*}
+Thus, the transformation is canonical.  A generating function of the first kind
+is given by
+\begin{align*}
+  F_1 &= -\frac{Q^2}{4i\alpha}+qQ-\frac{i\alpha}{2}q^2.
+\end{align*}
+This can be easily verified
+\begin{align*}
+  -\frac{\partial F_1}{\partial Q} &= \frac{Q}{2i\alpha}-q\\
+  &=\frac{Q-2qi\alpha}{2i\alpha}=\frac{p-qi\alpha}{2i\alpha}=P\\
+  \\
+  \frac{\partial F_1}{\partial q} &= Q-i\alpha q=p.
+\end{align*}
+\textbf{b)}\\
+In terms of there new variables, the solution to the harmonic oscillator is given by
+\begin{align*}
+  \dot{Q} &= -kq+i\alpha\frac{p}{m} = \frac{Q}{m}-P\frac{(1+k)2i\alpha}{(1-i\alpha)m}\\
+  \dot{P} &= \frac{-kq}{2i\alpha}-\frac{p}{2m} = \frac{-Q}{2mi\alpha}-P\frac{(k-1)}{m(1-i\alpha)}
+\end{align*}
+\textbf{Chap 9 ex 25}\\
+\textbf{a)}\\
+The equations of motion are given by: 
+\begin{align*}
+  \dot{p} &= -\frac{\partial H}{\partial q}\\
+  \dot{q} &= \frac{\partial H}{\partial p}\\
+  \\
+  \dot{p} &= \frac{1}{2q}+2p^2q^3\\
+  \dot{q} &= pq^4.
+\end{align*}
+\textbf{b)}\\
+The following transformation:
+\begin{align*}
+  q&=\frac{1}{Q\sqrt{k}}\\
+  p&=\frac{PQ^2k}{\sqrt{m}},
+\end{align*}
+will make the Hamiltonian in part a reduce to a harmonic oscillator.  However,
+this transformation is not canonical, since $[Q,P]=\sqrt{\frac{k}{m}}$.  The 
+only canonical transformation I could find was
+\begin{align*}
+  q&=\frac{\sqrt{m}}{P}\\
+  p&=\frac{QP^2}{\sqrt{m}},
+\end{align*}
+but this reduces to the special harmonic oscillator with $k=m$.  For this 
+transformation, the equation of motion from part a is 
+\begin{align*}
+  \dot{q} &= pq^4\\
+  -\dot{P}\frac{\sqrt{m}}{P^2} &= \frac{m^2}{P^2} \frac{Q}{\sqrt{m}}\\
+  \dot{P} &= -mQ,
+\end{align*}
+which is just the equation of motion for the harmonic oscillator with $k=m$.
+So, the equation from part $a$ is satisfied.
+
+\end{document}

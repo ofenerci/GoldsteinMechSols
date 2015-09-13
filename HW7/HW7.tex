@@ -1,0 +1,225 @@
+\documentclass[10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\headheight 35pt
+\parskip 10pt \parindent 0pt 
+\lhead{Classical Mechanics HW 7}
+\chead{Andrei Ilyashenko}
+\rhead{11-22-2010}
+\cfoot{\thepage}
+
+\begin{document}
+\textbf{Chap 9 der 15}\\
+\textbf{a)}\\
+The transformation is
+\begin{align*}
+  Q &= q^{\alpha}\cos{\beta p}\\
+  P &= q^{\alpha}\sin{\beta p}.
+\end{align*}
+In order to be canonical, it must satisfy
+\begin{align*}
+  [Q,P] &= 1\\
+  \frac{\partial Q}{\partial q}\frac{\partial P}{\partial p} - \frac{\partial Q}{\partial p}\frac{\partial P}{\partial q} &= 1\\
+  \alpha\beta q^{2\alpha-1}\cos^2{\beta p} + \alpha\beta q^{2\alpha-1}\sin^2{\beta p} &= 1\\
+  \alpha\beta q^{2\alpha-1} &= 1\\
+  \frac{1}{\alpha\beta} &= q^{2\alpha-1}.
+\end{align*}
+This equation will be satisfied for all $q$ only when $2\alpha-1=0$ so, we 
+must have $\alpha=1/2$ $\beta=2$.\\
+\textbf{b)}\\
+If this could be an extended canonical transformation, then we would have
+\begin{align*}
+  [Q,P] &= \lambda\\
+  \alpha\beta q^{2\alpha-1}\cos^2{\beta p} + \alpha\beta q^{2\alpha-1}\sin^2{\beta p} &= \lambda\\
+  \frac{\lambda}{\alpha\beta} &= q^{2\alpha-1}.
+\end{align*}
+Again $\alpha=1/2$, but this time $\beta = 2\lambda$.  The transformation function
+of the third kind, $F_3(Q,p)$ for this transformation must satisfy
+\begin{align*}
+  -\frac{\partial F_3}{\partial p} &= \lambda q\\
+  -\frac{\partial F_3}{\partial Q} &= P\\
+  \\
+  -\frac{\partial F_3}{\partial p} &= \lambda\frac{Q^2}{\cos^2(\beta p)}\\
+  -\frac{\partial F_3}{\partial Q} &= Q\tan{\beta p}.
+\end{align*}
+The transformation function satisfying these conditions is given by
+\begin{align*}
+  F_3(Q,p) &= -\frac{1}{2\beta}Q^2\tan(\beta p).
+\end{align*}
+\textbf{c)}\\
+Well, the factor of $\lambda$ appears because when we take a derivative with
+respect to $p$, we get a factor of $\beta=2\lambda$.  If the transformation 
+function was instead
+\begin{align*}
+  F_3(Q,p) &= -\frac{1}{2\beta}Q^2\tan(\beta p),
+\end{align*}
+then when we take the derivative the $\beta$ in the denominator would cancel
+the $\beta$ we get from differentiating.  So, the new equations would be
+\begin{align*}
+  -\frac{\partial F_3}{\partial p} &= q\\
+  -\frac{\partial F_3}{\partial Q} &= P\\
+  \\
+  -\frac{\partial F_3}{\partial p} &= \frac{Q^2}{\cos^2(\beta p)}\\
+  -\frac{\partial F_3}{\partial Q} &= Q\frac{1}{\beta}\tan{\beta p}.
+\end{align*}
+Consequently, the modified transformation equations are
+\begin{align*}
+  Q &= q^{\alpha}\cos(\beta p)\\
+  P &= q^{\alpha}\sin(\beta p)\frac{1}{\beta}.
+\end{align*}
+\textbf{Chap 9 Ex 28}\\
+\textbf{a)}\\
+First, we need to express the velocities in terms of the conjugate momentum 
+and coordinate.
+Assuming this charged particle is not relativistic, the Lagrangian for a charged
+particle moving in a magnetic field is
+\begin{align*}
+  \mathcal{L} &= \frac{1}{2}m\dot{q_i}\dot{q_i} + e\dot{q_i}A_i\\
+\end{align*}
+So, the conjugate momentum is given by
+\begin{align*}
+  p_i &= \frac{\partial L}{\partial \dot{q_i}}\\
+      &= m\dot{q_i}+eA_i.
+\end{align*}
+In the case of a uniform magnetic field of magnitude $B$ pointing in the $z$,
+or third dimension, this becomes
+\begin{align*}
+  \mathcal{L} &= \frac{1}{2}m\dot{q_i}\dot{q_i} - eB\dot{q_1}q_2 + eB\dot{q_2}q_1\\
+  p_1 &= m\dot{q_1}-eBq_2\\
+  p_2 &= m\dot{q_2}+eBq_1\\
+  p_3 &= m\dot{q_3}.
+\end{align*}
+So, the velocities in terms of $q$ and $p$ are
+\begin{align*}
+  v_1 &= \frac{p_1+eBq_2}{2m}\\
+  v_2 &= \frac{p_2-eBq_1}{2m}\\
+  v_3 &= \frac{p_3}{2m}.
+\end{align*}
+Thus, the Poisson brackets are
+\begin{align*}
+  [v_i,v_j] &= \frac{\partial v_i}{\partial q_k}\frac{\partial v_j}{\partial p_k} - \frac{\partial v_j}{\partial q_k}\frac{\partial v_i}{\partial p_k}\\
+  [v_1,v_2] &= \frac{eB+eB}{2m}=\frac{eB}{m}\\
+  [v_1,v_3] &= 0\\
+  [v_2,v_3] &= 0.
+\end{align*}
+\textbf{b)}\\
+Since, we already have $v_i$ in terms of $p$ and $q$, evaluating these
+Poisson brackets is straight forward
+\begin{align*}
+  [q_i,v_j] &= \frac{\partial v_j}{\partial p_i} = \frac{1}{2m}\delta_{ij}\\
+  \\
+  [p_i,v_j] &= -\frac{\partial v_j}{\partial q_i}\\
+  [p_2,v_1] &= \frac{eB}{2m}\\
+  [p_1,v_2] &= -\frac{eB}{2m}\\
+  \\
+  [q_i,\dot{p_j}] &= -[v_i,p_j] = [p_j,v_i]\\
+  [q_2,\dot{p_1}] &= -\frac{eB}{2m}\\
+  [q_1,\dot{p_2}] &= \frac{eB}{2m}\\
+  \\
+  [p_i,\dot{p_j}] &= [p_i,\frac{\mathcal{L}}{q_j}]\\
+  [p_1,\dot{p_1}] &= eB[p_1,v_2] = -\frac{e^2B^2}{2m}\\
+  [p_1,\dot{p_2}] &= -eB[p_2,v_1] = -\frac{e^2B^2}{2m}.
+\end{align*}
+Poisson brackets equal to 0 have not been written out explicitly.
+\textbf{Chap 9 Ex 31}\\
+The Hamiltonian for the 1D harmonic oscillator is
+\begin{align*}
+  \mathcal{H} &= \frac{p^2}{2m}+\frac{1}{2}m\omega^2q^2.
+\end{align*}
+If $u(q,p,t)=ln(p+im\omega q)-i\omega t$ is a constant of motion, then we must have
+\begin{align*}
+  [u,\mathcal{H}] &= -\frac{\partial u}{\partial t}\\
+  \frac{ip\omega-m\omega^2q}{p+im\omega q} &= i\omega\\
+  ip\omega-m\omega^2q &= i\omega p-m\omega^2 q.
+\end{align*}
+Thus, it is a constant of motion.  The physical significance probably has 
+something to do with the symmetry of the harmonic oscillator.
+\textbf{Chap 9 Ex 32}\\
+The Hamiltonian we are given is
+\begin{align*}
+  \mathcal{H} &= q_1p_1-q_2p_2-aq_1^2+bq_2^2.
+\end{align*}
+First, lets check if $F_1=\frac{p_1-aq_1}{q_2}$ is a constant of motion as in
+the last problem
+\begin{align*}
+  [F_1,\mathcal{H}] &= -\frac{\partial F_1}{\partial t}\\
+  \frac{-a}{q_2}(q_1) + \frac{p_1-aq_1}{q_2} - \left( \frac{p_1-2aq_1}{q_2} \right) &= 0\\
+  \frac{-2aq_1}{q_2} + \frac{2aq_1}{q_2} + \frac{p_1}{q_2} - \frac{p_1}{q_2}  &= 0\\
+  0 &= 0\\
+\end{align*}
+Thus, $F_1$ is a constant of motion.  Now, for $F_2=q_1q_2$
+\begin{align*}
+  [F_2,\mathcal{H}] &= -\frac{\partial F_2}{\partial t}\\
+  q_1q_2 - q_1q_2 &= 0\\
+\end{align*}
+So, $F_2$ is also a constant of motion.  Assuming a third constant of motion $F_3$, can 
+somehow be generated using Jacobi's Identity, lets see what happens when we simplify it
+\begin{align*}
+  [F_1,[F_2,\mathcal{H}]] + [\mathcal{H},[F_1,F_2]] + [F_2,[\mathcal{H},F_1]] &= 0\\
+   [\mathcal{H},[F_1,F_2]]  &= 0\\
+   [\mathcal{H},F_3]  &= 0\\
+   [F_3,\mathcal{H}]  &= 0
+\end{align*}
+So, $F_3=[F_1,F_2]$.
+
+\textbf{Chap 9 Ex 36}\\
+\textbf{a)}\\
+Using the theorem concerning Poisson brackets of vector functions and components
+of the angular momentum, show that if \textbf{F} and \textbf{G} are two vector
+functions of the coordinates and momenta only, then
+\begin{align*}
+  [F\cdot L,G\cdot L] &= L\cdot(G\times F)+L_iL_j[F_i,G_j]\\
+\end{align*}
+So, lets start with the left hand side and show that it becomes the right hand
+side
+\begin{align*}
+  [F\cdot L,G\cdot L] &= [F_iL_i,G_jL_j]\\
+                      &= F_i[L_i,G_jL_j] + L_i[F_i,G_jL_j]\\
+                      &= F_iL_j[L_i,G_j] + F_iG_j[L_i,L_j] + L_iG_j[F_i,L_j] + L_iL_j[F_i,G_j]\\
+                      &= L_iL_j[F_i,G_j] + F_iL_j[L_i,G_j] + F_iG_j[L_i,L_j] + L_iG_j[F_i,L_j]\\
+                      &= L_iL_j[F_i,G_j] - F_iL_j[G_j,L_i] + F_iG_j[L_i,L_j] + L_iG_j[F_i,L_j]\\
+                      &= L_iL_j[F_i,G_j] - F_iL_j\epsilon_{jik}G_k + F_iG_j\epsilon{ijk}L_k + L_iG_j\epsilon_{ijk}F_k\\
+                      &= L_iL_j[F_i,G_j] - L\cdot(F\times G) + L\cdot(F\times G) + L_i(G\times F)\\
+                      &= L_iL_j[F_i,G_j] + L_i(G\times F)\\
+                      &= L_i(G\times F) + L_iL_j[F_i,G_j]\\
+\end{align*}
+\textbf{b)}\\
+Let $F$ be the unit vector in the $\mu$ direction, $G$ be the unit vector in the $\nu$ direction, and $\lambda$ by the third direction (so if $\mu=1$ and $\nu=2$ then $\lambda$ will equal 3.  Ok,
+now if we substitute the value of $F$ and $G$ into the equation from part a we get
+\begin{align*}
+  [F\cdot L,G\cdot L] &= L\cdot(G\times F)+L_iL_j[F_i,G_j]\\
+  [F_iL_i,G_jL_j]     &= L_i\epsilon_{ijk}G_jF_k+L_iL_j[F_i,G_j].
+\end{align*}
+Now, we know that the only non-zero terms of $F_k$ and $G_j$ are $F_{\mu}$ and $G_{\nu}$ so the equation above becomes
+\begin{align*}
+  [F_iL_i,G_jL_j] &= L_i\epsilon_{ijk}G_jF_k+L_iL_j[F_i,G_j]\\
+  [F_{\mu}L_{\mu},G_{\nu}L_{\nu}] &= L_i\epsilon_{i\nu\mu}G_{\nu}F_{\mu}+L_{\mu}L_{\nu}[F_{\mu},G_{\nu}]\\
+\end{align*}
+remember that $F_{\mu}=G_{\nu}=1$ since these are unit vectors, so the expression above becomes
+further simplified
+\begin{align*}
+  [F_{\mu}L_{\mu},G_{\nu}L_{\nu}] &= L_i\epsilon_{i\nu\mu}G_{\nu}F_{\mu}+L_{\mu}L_{\nu}[F_{\mu},G_{\nu}]\\
+  [L_{\mu},L_{\nu}] &= L_i\epsilon_{i\nu\mu}+L_{\mu}L_{\nu}[1,1]\\
+  [L_{\mu},L_{\nu}] &= L_i\epsilon_{i\nu\mu}.
+\end{align*}
+Lets call the direction perpendicular to $\mu$ and $\nu$ as $\lambda$, so the equation above
+becomes
+\begin{align*}
+  [L_{\mu},L_{\nu}] &= L_{\lambda}\epsilon_{\lambda\nu\mu}\\
+  [L_{\mu},L_{\nu}] &= I_{\lambda}\omega_{\lambda}\epsilon_{\lambda\nu\mu}.
+\end{align*}
+Therefore all of the sums reduce to simply one expression, where $\lambda$ is just equal to whatever $\mu$ and $\nu$ is not equal.  In the case where $\mu=\nu$ it is unclear what to pick for $\lambda$, but in this case the epsilon is equal to zero since $\mu=\nu$ so it doesn't matter. 
+\textbf{c)}\\
+So, the equation of motion for $L_i$ is
+\begin{align*}
+  \frac{dL_i}{dt} &= [L_i,H] + \frac{\partial L_i}{\partial t}\\
+  \frac{dL_i}{dt} - [L_i,H] &= \frac{\partial L_i}{\partial t}\\
+  \frac{dL_i}{dt} - \epsilon_{ikj}\omega_j\omega_kI_k &= N_i\\
+  \frac{dL_i}{dt} + \epsilon_{ijk}\omega_j\omega_kI_k &= N_i.
+\end{align*}
+
+\end{document}
+

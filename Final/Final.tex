@@ -1,0 +1,104 @@
+\documentclass[10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\headheight 35pt
+\parskip 10pt \parindent 0pt 
+\lhead{Classical Mechanics Take Home Final}
+\chead{Andrei Ilyashenko}
+\rhead{12-12-2010}
+\cfoot{\thepage}
+
+\begin{document}
+\textbf{Chap 8 Ex 25}\\
+This problem involves a two dimensional motion because the mass can move along the track, and
+the cylinder can spin.  Let generalized coordinates be $l$, the distance the mass has moved along
+the track, and $\theta$ the angle that the cylinder has rotated through.  The kinetic and potential
+energies are given by
+\begin{align*}
+  T &= \frac{1}{2} \left( M\frac{a^2}{2}\omega^2+mf'(l)^2\dot l^2+m(g'(l)\dot l+\omega a)^2 \right)\\
+    &= \frac{1}{2} \left( M\frac{a^2}{2}\omega^2+mf'(l)^2\dot l^2+gm'(l)\dot l^2 + 2mg'(l)\omega a\dot l + m\omega^2 a^2 \right)\\
+    &= \frac{1}{2} \left( M\frac{a^2}{2}\omega^2+m\dot l^2 + 2mg'(l)\omega a\dot l + m\omega^2 a^2 \right)\\
+  V &= -mgf(l),
+\end{align*}
+where $M$ is the mass of the cylinder, and $f$ is a monotonically increasing function that computes the vertical
+distance the mass has travelled given the distance it has moved along the track, and $g$ is a function that 
+computes the angular distance the mass has rotated.  These functions depends on the shape of the track.  So, 
+the canonical momenta are
+\begin{align*}
+  p_l &= m\dot l + g'(l)m\omega a\\
+  p_{\theta} &= \left( M\frac{a^2}{2}\omega+ma^2\omega+mg'(l)\dot la \right)\\
+\end{align*}
+The Hamiltonian will be the total energy since the Lagrangian does not depend on time, and all forces are derivable
+from a conservative potential.  Also keep in mind that since $f$ and $g$ return a distance, their derivative with
+respect to $l$ will be unitless.
+\begin{align*}
+  H &= T+V\\
+    &= \frac{1}{2} \left( M\frac{a^2}{2}\omega^2+m\dot l^2 + 2mg'(l)\omega a\dot l + m\omega^2 a^2 \right)-mgf(l)\\
+    &= \frac{-1}{a^2 m ((-1 + g^2) m - M) } \left( M\frac{a^2}{2}p_l^2+mp_{\theta}^2 - 2mg'(l)p_l ap_{\theta} +m p_l^2 a^2 \right)-mgf(l)\\
+    &= \mathcal{A} \left( M\frac{a^2}{2}p_l^2+mp_{\theta}^2 - 2mg'(l)p_l ap_{\theta} +m p_l^2 a^2 \right)-mgf(l)\\
+\end{align*}
+So, the Hamiltonian equations of motion are
+\begin{align*}
+  \dot l &= \mathcal{A} \left( Ma^2p_l - 2mg'(l) ap_{\theta} +2m p_l a^2 \right)\\
+  \dot \theta &= \mathcal{A} \left( 2mp_{\theta} - 2mg'(l)p_l a \right)\\
+  -\dot p_l &= -mgf'(l) - \mathcal{A}2mg''(l)p_l ap_{\theta}\\
+  -\dot p_{\theta} &= 0.
+\end{align*}
+I cannot find a solution without knowing $g$ and $f$.  Lets assume that $f'(l)=c$ and $g'(l)=b$, so 
+$g''(l)=0$ and $c^2+b^2=1$.  This means that the track is shaped in such a way that the ratio of
+tangential to vertical motion remains constant.  If this is the case, our equations of motion become.
+\begin{align*}
+  \dot l &= \mathcal{A} \left( Ma^2p_l - 2mb ap_{\theta} +2m p_l a^2 \right)\\
+  \dot \theta &= \mathcal{A} \left( 2mp_{\theta} - 2mbp_l a \right)\\
+  -\dot p_l &= -mgc\\
+  -\dot p_{\theta} &= 0.
+\end{align*}
+So, the canonical momentum is given by
+\begin{align*}
+  p_{\theta} &= \rm{Constant}\\
+  p_l &= mgct.
+\end{align*}
+From here, the canonical momentum can by substituted into the equations for $\dot l$ and $\dot\theta$,
+and then we will have $\dot l$ and $\dot\theta$ as function of time.  If we integrate once, we will
+even have $l$ and $\theta$ as functions of time, but this algebra is unnecessary if you want a 
+qualitative understanding of the motion.  Basically, as time goes on, the mass picks up speed along
+the track, and the cylinder-mass system starts spinning in the counter clockwise direction the rate
+at which the system gains angular momentum depends on $cb$, and if $cb=0$ (as in a flat track or a 
+track going straight down), then there is no change in angular momentum.
+
+\textbf{Chap 10 Ex 10}\\
+This problem has one degree of freedom, since only one coordinate is needed to
+entirely describe the state of the system.  Lets call our coordinate $h$, see
+fig. \ref{fig:10-10}.  First, we need to calculate the potential and kinetic
+energies in terms of our generalized coordinate.  The potential energy is given
+by
+\begin{align*}
+  V &= \frac{mgh}{2},
+\end{align*}
+and the kinetic energy is given by
+\begin{align*}
+  T &= T_{\textrm{rotational}} + T_{\textrm{translational}}\\
+    &= \frac{ml^2}{3}\dot\theta^2 + \frac{m}{2}v^2,
+\end{align*}
+where $v$ is the velocity of the center of mass of the rod.  Now, we need to
+calculate $v$ and $\theta$.  $\theta$ can be found from the right triangle
+\begin{align*}
+  \theta &= \arcsin\left(\frac{h}{2l}\right)
+\end{align*}
+Now, we can get $\dot\theta$ by taking a total derivative of $\theta$ with 
+respect to time
+\begin{align*}
+  \dot\theta &= \frac{d}{dt}\left( \arcsin\left(\frac{h}{2l}\right) \right)\\
+             &= \frac{\dot h}{2l\sqrt{1-\left( \frac{h}{2l} \right)^2}}.
+\end{align*}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{10-10.png}
+    \caption{This figure shows the generalized coordinates for this problem.}
+  \label{fig:10-10}
+\end{figure}
+
+\end{document}
